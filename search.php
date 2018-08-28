@@ -20,10 +20,10 @@
     <nav>
       <div>
         <ul>
-          <li id=accueil><a href="/PHP/construction.html">Accueil</a></li>
-          <li id=trad><a href="/PHP/construction.html">Traductions</a></li>
-          <li id=cv><a href="/PHP/index.html">Qui suis-je ?</a></li>
-          <li id=contact><a href="/PHP/construction.html">Contact</a></li>     
+          <li id=accueil><a href="construction.html">Accueil</a></li>
+          <li id=trad><a href="construction.html">Traductions</a></li>
+          <li id=cv><a href="index.html">Qui suis-je ?</a></li>
+          <li id=monsters><a href="monstres.html">Monstres</a></li>  
         </ul>  
       </div>
     </nav>
@@ -32,11 +32,11 @@
       <aside>
         <p>Dictionnaire de mots-valises</p>
         <form method="get"
-              action=/PHP/search.php>
+              action=search.php>
           <input id=searchfield type=text name="search">
           <input type=submit value="Chercher">
         </form>
-        <p><a id=btnContrib href="/PHP/motvalcontrib.php"><input type=submit value="Contribuer"></a></p>
+        <p><a id=btnContrib href="motvalcontrib.php"><input type=submit value="Contribuer"></a></p>
       </aside>
     
       <section>  
@@ -75,7 +75,7 @@
             //Si aucun résultat n'a été trouvé, propose d'ajouter le mot
             if(! $ligne = mysqli_fetch_assoc($result)){
               echo "<p>Le mot « $search » n'est pas encore dans le dictionnaire.
-                   Voulez-vous l'y <a class=lien href='/PHP/motvalcontrib.php?add=$search'>ajouter<a/> ?</p>"; }
+                   Voulez-vous l'y <a class=lien href='motvalcontrib.php?add=$search'>ajouter<a/> ?</p>"; }
             //Sinon, affiche les détails du mot trouvé
             else
             {
@@ -101,3 +101,10 @@
     
   </body>
 </html>
+
+  
+
+
+
+
+

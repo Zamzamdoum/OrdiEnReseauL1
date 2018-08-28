@@ -6,7 +6,7 @@
     <meta name="description" content="contribute to database">
     <meta name="author" content="Claire Stalter">
     <meta name="viewport">
-    <link rel="stylesheet" href="/PHP/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   </head>
@@ -20,10 +20,10 @@
     <nav>
       <div>
         <ul>
-          <li id=accueil><a href="/PHP/construction.html">Accueil</a></li>
-          <li id=trad><a href="/PHP/construction.html">Traductions</a></li>
-          <li id=cv><a href="/PHP/index.html">Qui suis-je ?</a></li>
-          <li id=contact><a href="/PHP/construction.html">Contact</a></li>     
+          <li id=accueil><a href="construction.html">Accueil</a></li>
+          <li id=trad><a href="construction.html">Traductions</a></li>
+          <li id=cv><a href="index.html">Qui suis-je ?</a></li>
+          <li id=monsters><a href="monstres.html">Monstres</a></li>     
         </ul>  
       </div>
     </nav>
@@ -32,18 +32,18 @@
       <aside>
         <p>Dictionnaire de mots-valises</p>
         <form method="get"
-              action=/PHP/search.php>
+              action=search.php>
           <input id=searchfield type=text name="search">
           <input type=submit value="Chercher">
         </form>
-        <p><a id=btnContrib href="/PHP/motvalcontrib.php"><input type=submit value="Contribuer"></a></p>
+        <p><a id=btnContrib href="motvalcontrib.php"><input type=submit value="Contribuer"></a></p>
       </aside>
     
       <section>  
         <h2>PETIT DICTIONNAIRE DE MOTS-VALISES DU FRANÇAIS</h2>
 
         <form id='contrib' method="post"
-              action=/PHP/contrib.php>
+              action=contrib.php>
           <h4>Mot</h4>
           <p><input type=text name="word" value=<?php echo $_GET[add]; ?>></p>
           <h4>Définition</h4>
