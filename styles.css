@@ -1,5 +1,4 @@
-body
-{
+body {
   min-width: 1000px;
   margin: 0px;
   font-family: 'Nunito+Sans', Sans Serif;
@@ -13,8 +12,7 @@ header
 ===========
 */
 
-header
-{
+header {
   width: inherit;
   background-color: black;
   height: 80px;
@@ -22,8 +20,7 @@ header
   padding-bottom: 30px;
 }
 
-h1
-{
+h1 {
   width: 40%;
   background-color: inherit;
   color: white;
@@ -38,9 +35,8 @@ h1
   font-family: 'Roboto Mono', monospace;
 }
 
-header p
-{
-  color:white;
+header p {
+  color: white;
   text-align: center;
   margin-top: 16px;
 }
@@ -52,8 +48,7 @@ bandeau de navigation
 ===========
 */
 
-nav
-{
+nav {
   background-color: lightgrey;
   width: 100%;
   height: 60px;
@@ -61,15 +56,13 @@ nav
   font-family: 'Muli', sans-serif;
 }
 
-nav div
-{
+nav div {
   display: table;
   margin: 0 auto;
   padding-top: 0px;
 }
 
-nav li
-{
+nav li {
   list-style-type: none;
   background-color: inherit;
   color: black;
@@ -80,35 +73,29 @@ nav li
   font-size: 22px;
 }
 
-nav ul
-{
+nav ul {
   margin: 0px;
   padding: 0px;
 }
 
-#accueil:hover
-{
+#accueil:hover {
   background-color: #FA03B0;
 }
 
-#trad:hover
-{
+#trad:hover {
   background-color: #16C40A;
 }
 
-#cv:hover
-{
+#cv:hover {
   background-color: #FA8908;
 }
 
-#contact:hover
-{
+#monsters:hover {
   background-color: #A880D6;
 }
 
-nav a
-{
-  color:black;
+nav a {
+  color: black;
   text-decoration: none;
 }
 
@@ -119,50 +106,43 @@ contenant principal
 ===========
 */
 
-.container
-{
+.container {
   background-color: whitesmoke;
   padding: 0px;
-  margin: 0px;  
-  min-height: 700px;
+  margin: 0px;
+  min-height: 850px;
   font-family: 'Muli', sans-serif;
 }
 
-section
-{
+section {
   width: 74%;
   padding: 40px 0px 40px 100px;
   background-color: white;
   min-height: inherit;
 }
 
-#nom
-{
+#nom {
   margin: auto;
   padding: 5px 20px 10px 20px;
 }
 
-#nom h2
-{
+#nom h2 {
   font-size: 33px;
   letter-spacing: 1px;
   margin-bottom: 0px;
 }
 
-#nom p
-{
+#nom p {
   font-size: 18px;
-  margin-top: 10px;  
+  margin-top: 10px;
 }
 
-.important
-{
+.important {
   color: #e01a52;
   font-weight: bolder;
 }
 
-.sectionCV
-{
+.sectionCV {
   padding: 0px 0px 15px 0px;
   margin: 20px 200px 30px 0px;
   height: inherit;
@@ -170,13 +150,11 @@ section
   border-radius: 10px;
 }
 
-.lien
-{
+.lien {
   color: #5f2775;
 }
 
-section h3
-{
+section h3 {
   text-transform: uppercase;
   margin: 0px;
   padding: 10px 0px 25px 20px;
@@ -184,30 +162,25 @@ section h3
   border-radius: 10px;
 }
 
-.date
-{
+.date {
   margin: 15px 0px 5px 20px;
 }
 
-.occupation
-{
+.occupation {
   margin: 0px 0px 0px 35px;
   width: 90%;
 }
 
-.occupation ul
-{
+.occupation ul {
   margin-left: 0px;
 }
 
-.occupation li
-{
+.occupation li {
   list-style-position: outside;
   list-style-type: circle;
 }
 
-#construc
-{
+#construc {
   text-align: center;
 }
 
@@ -218,81 +191,69 @@ dico de mots-valises
 ===========
 */
 
-aside
-{
+aside {
   float: right;
   background-color: whitesmoke;
-  width: 14%; 
+  width: 14%;
   padding: 10px;
   font-size: 18px;
   text-align: right;
 }
 
-#mot2
-{
+#mot2 {
   font-size: 160%;
   margin-top: 70px;
   color: indigo;
 }
 
-.catgramm
-{
+.catgramm {
   color: black;
   font-size: 70%;
 }
 
-#defin
-{
+#defin {
   width: 70%;
 }
 
-#creator
-{
+#creator {
   font-style: italic;
   color: grey;
 }
 
-#contrib
-{
+#contrib {
   width: 70%;
   margin-top: 70px;
   padding: 20px 0px 20px 20px;
   background-color: aliceblue;
 }
 
-textarea
-{
+textarea {
   width: 80%;
   height: 70px;
   resize: vertical;
   padding-top: 0px;
 }
 
-#mot3
-{
+#mot3 {
   font-size: 120%;
   margin-top: 0px;
   color: black;
-  text-decoration-line: none; 
+  text-decoration-line: none;
 }
 
-#mot3:hover
-{
+#mot3:hover {
   color: indigo;
 }
 
-#listemots
-{
-  padding-left: 0px; 
+#listemots {
+  padding-left: 0px;
 }
 
-#searchfield
-{
+#searchfield {
   width: 90%;
 }
 
-#btnContrib
-{
+#btnContrib {
   text-decoration: none;
 }
 
@@ -303,45 +264,39 @@ gestion des images
 ===========
 */
 
-#peas
-{
+#peas {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.imagesCV
-{
+.imagesCV {
   padding: 20px 0px 20px 0px;
 }
 
 
 /* _____images de gauche_____ */
 
-.image-gauche
-{
+.image-gauche {
   padding-top: 5px;
   padding-left: 20px;
   overflow: auto;
   padding-bottom: 10px;
 }
 
-.image-gauche img
-{
-  float:left;
+.image-gauche img {
+  float: left;
   height: 150px;
   border: solid 1px;
 }
 
-.image-gauche .legende
-{
+.image-gauche .legende {
   float: left;
   margin-left: 20px;
   width: 70%;
 }
 
-.image-gauche h4
-{
+.image-gauche h4 {
   text-align: left;
   margin-top: 5px;
 }
@@ -349,37 +304,90 @@ gestion des images
 
 /* _____images de droite_____ */
 
-.image-droite
-{
+.image-droite {
   padding-top: 5px;
   padding-right: 25px;
   overflow: auto;
   padding-bottom: 10px;
 }
 
-.image-droite img
-{
-  float:right;
+.image-droite img {
+  float: right;
   height: 150px;
   border: solid 1px;
 }
 
-.image-droite .legende
-{
-  float:right;
+.image-droite .legende {
+  float: right;
   margin-right: 20px;
   width: 70%;
 }
 
-.image-droite h4
-{
+.image-droite h4 {
   text-align: right;
   margin-top: 5px;
 }
 
-.image-droite p
-{
+.image-droite p {
   text-align: right;
+}
+
+
+
+/*
+===========
+générateur de monstres
+===========
+*/
+
+#monsterbox {
+  background-color: skyblue;
+  margin-left: 20%;
+  margin-top: 30px;
+  padding: 20px 40px 20px 30px;
+  width: 520px;
+  height: auto;
+  border: solid 2px black;
+}
+
+.leftarrow {
+  float: left;
+  margin-top: 7%;
+  opacity: 0.7;
+}
+
+.rightarrow {
+  float: right;
+  margin-top: 7%;
+  opacity: 0.7;
+}
+
+.leftarrow:hover {
+  opacity: 1;
+}
+
+.rightarrow:hover {
+  opacity: 1;
+}
+
+.mnstrbtn {
+  display: inline;
+  margin: 30px 10px 10px 10px;
+  font-family: 'Nunito+Sans', Sans Serif;
+  font-size: 12px;
+}
+
+.mnstrbtn p {
+  display: inline;
+}
+
+#bgcolor {
+  font-family: 'Nunito+Sans', Sans Serif;
+  font-size: 12px;
+}
+
+#controls {
+  padding: 0 15%;
 }
 
 
@@ -389,8 +397,7 @@ footer
 ===========
 */
 
-footer
-{
+footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -401,4 +408,3 @@ footer
   font-size: 12px;
   text-align: center;
 }
-

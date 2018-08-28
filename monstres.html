@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Générateur de monstres</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Générateur de monstres">
+  <meta name="author" content="Claire Stalter">
+  <meta name="viewport">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Hello word</h1>
+    <p>Des trucs et des machins mais je sais pas encore trop quoi.</p>
+  </header>
+
+  <nav>
+    <div>
+      <ul>
+        <li id=accueil><a href="construction.html">Accueil</a></li>
+        <li id=trad><a href="construction.html">Traductions</a></li>
+        <li id=cv><a href="index.html">Qui suis-je ?</a></li>
+        <li id=monsters><a href="monstres.html">Monstres</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class=container>
+      <aside>
+        <p>Dictionnaire de mots-valises</p>
+        <form method="get"
+              action=search.php>
+          <input id=searchfield type=text name="search">
+          <input type=submit value="Chercher">
+        </form>
+        <p><a id=btnContrib href="motvalcontrib.php"><input type=submit value="Contribuer"></a></p>
+      </aside>
+
+    <section>
+      <p>Un genre de générateur de monstres.</p>
+
+      <div id=monsterbox>
+        <div class=monsterpart>
+          <div class=leftarrow><img onclick="switchimg(event)" id=headl src="images/arrowl.png"></div>
+          <img class=mnstrimg id=headimg src="images/Tete0.png">
+          <div class=rightarrow><img onclick="switchimg(event)" id=headr src="images/arrowr.png"></div>
+        </div>
+        <div class=monsterpart>
+          <div class=leftarrow><img onclick="switchimg(event)" id=bodyl src="images/arrowl.png"></div>
+          <img class=mnstrimg id=bodyimg src="images/Corps0.png">
+          <div class=rightarrow><img onclick="switchimg(event)" id=bodyr src="images/arrowr.png"></div>
+        </div>
+        <div class=monsterpart>
+          <div class=leftarrow><img onclick="switchimg(event)" id=feetl src="images/arrowl.png"></div>
+          <img class=mnstrimg id=feetimg src="images/Pattes0.png">
+          <div class=rightarrow><img onclick="switchimg(event)" id=feetr src="images/arrowr.png"></div>
+        </div>
+
+        <div id=controls>
+          <input class=mnstrbtn onclick="randommnstr()" type=button value="Monstre aléatoire">
+          <div class=mnstrbtn>
+            <p>Arrière-plan :</p>
+            <select onchange="switchcolor()" id=bgcolor>
+                  <option value="skyblue" selected>bleu</option>
+                  <option value="yellow">jaune</option> 
+                  <option value="grey">gris</option>
+                  <option value="peachpuff">rose</option>
+                  <option value="orange">orange</option>
+                </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
