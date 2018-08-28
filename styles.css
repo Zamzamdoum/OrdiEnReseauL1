@@ -1,0 +1,404 @@
+body
+{
+  min-width: 1000px;
+  margin: 0px;
+  font-family: 'Nunito+Sans', Sans Serif;
+  font-size: 16px;
+}
+
+
+/*
+===========
+header
+===========
+*/
+
+header
+{
+  width: inherit;
+  background-color: black;
+  height: 80px;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+
+h1
+{
+  width: 40%;
+  background-color: inherit;
+  color: white;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header p
+{
+  color:white;
+  text-align: center;
+  margin-top: 16px;
+}
+
+
+/*
+===========
+bandeau de navigation
+===========
+*/
+
+nav
+{
+  background-color: lightgrey;
+  width: 100%;
+  height: 60px;
+  padding-top: 0px;
+  font-family: 'Muli', sans-serif;
+}
+
+nav div
+{
+  display: table;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+nav li
+{
+  list-style-type: none;
+  background-color: inherit;
+  color: black;
+  float: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 35px 12px 35px;
+  font-size: 22px;
+}
+
+nav ul
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+#accueil:hover
+{
+  background-color: #FA03B0;
+}
+
+#trad:hover
+{
+  background-color: #16C40A;
+}
+
+#cv:hover
+{
+  background-color: #FA8908;
+}
+
+#contact:hover
+{
+  background-color: #A880D6;
+}
+
+nav a
+{
+  color:black;
+  text-decoration: none;
+}
+
+
+/*
+===========
+contenant principal
+===========
+*/
+
+.container
+{
+  background-color: whitesmoke;
+  padding: 0px;
+  margin: 0px;  
+  min-height: 700px;
+  font-family: 'Muli', sans-serif;
+}
+
+section
+{
+  width: 74%;
+  padding: 40px 0px 40px 100px;
+  background-color: white;
+  min-height: inherit;
+}
+
+#nom
+{
+  margin: auto;
+  padding: 5px 20px 10px 20px;
+}
+
+#nom h2
+{
+  font-size: 33px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+#nom p
+{
+  font-size: 18px;
+  margin-top: 10px;  
+}
+
+.important
+{
+  color: #e01a52;
+  font-weight: bolder;
+}
+
+.sectionCV
+{
+  padding: 0px 0px 15px 0px;
+  margin: 20px 200px 30px 0px;
+  height: inherit;
+  background-color: #fcf7f8;
+  border-radius: 10px;
+}
+
+.lien
+{
+  color: #5f2775;
+}
+
+section h3
+{
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 10px 0px 25px 20px;
+  background-image: linear-gradient(#f788a9 20%, #fcf7f8 95%);
+  border-radius: 10px;
+}
+
+.date
+{
+  margin: 15px 0px 5px 20px;
+}
+
+.occupation
+{
+  margin: 0px 0px 0px 35px;
+  width: 90%;
+}
+
+.occupation ul
+{
+  margin-left: 0px;
+}
+
+.occupation li
+{
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+#construc
+{
+  text-align: center;
+}
+
+
+/*
+===========
+dico de mots-valises
+===========
+*/
+
+aside
+{
+  float: right;
+  background-color: whitesmoke;
+  width: 14%; 
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+}
+
+#mot2
+{
+  font-size: 160%;
+  margin-top: 70px;
+  color: indigo;
+}
+
+.catgramm
+{
+  color: black;
+  font-size: 70%;
+}
+
+#defin
+{
+  width: 70%;
+}
+
+#creator
+{
+  font-style: italic;
+  color: grey;
+}
+
+#contrib
+{
+  width: 70%;
+  margin-top: 70px;
+  padding: 20px 0px 20px 20px;
+  background-color: aliceblue;
+}
+
+textarea
+{
+  width: 80%;
+  height: 70px;
+  resize: vertical;
+  padding-top: 0px;
+}
+
+#mot3
+{
+  font-size: 120%;
+  margin-top: 0px;
+  color: black;
+  text-decoration-line: none; 
+}
+
+#mot3:hover
+{
+  color: indigo;
+}
+
+#listemots
+{
+  padding-left: 0px; 
+}
+
+#searchfield
+{
+  width: 90%;
+}
+
+#btnContrib
+{
+  text-decoration: none;
+}
+
+
+/*
+===========
+gestion des images
+===========
+*/
+
+#peas
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagesCV
+{
+  padding: 20px 0px 20px 0px;
+}
+
+
+/* _____images de gauche_____ */
+
+.image-gauche
+{
+  padding-top: 5px;
+  padding-left: 20px;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+.image-gauche img
+{
+  float:left;
+  height: 150px;
+  border: solid 1px;
+}
+
+.image-gauche .legende
+{
+  float: left;
+  margin-left: 20px;
+  width: 70%;
+}
+
+.image-gauche h4
+{
+  text-align: left;
+  margin-top: 5px;
+}
+
+
+/* _____images de droite_____ */
+
+.image-droite
+{
+  padding-top: 5px;
+  padding-right: 25px;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+.image-droite img
+{
+  float:right;
+  height: 150px;
+  border: solid 1px;
+}
+
+.image-droite .legende
+{
+  float:right;
+  margin-right: 20px;
+  width: 70%;
+}
+
+.image-droite h4
+{
+  text-align: right;
+  margin-top: 5px;
+}
+
+.image-droite p
+{
+  text-align: right;
+}
+
+
+/*
+===========
+footer
+===========
+*/
+
+footer
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: lightgrey;
+  font-size: 12px;
+  text-align: center;
+}
+
